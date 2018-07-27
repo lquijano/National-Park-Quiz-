@@ -1,0 +1,45 @@
+#quiz {
+display:none;
+}
+
+h1 {
+font-size: 100px;
+color: white;
+}
+
+body {
+text-align: center;
+/* background: url(img/assets/images/nationalParks.gif) no-repeat; */
+background-color: white;
+background-size: cover;
+font-family: 'Acme', sans-serif;
+font-size: 20px;
+color: black;
+}
+form {
+background-color: grey;
+opacity: .6;
+color: white;
+width: 450px;
+display: inline-block;
+}
+button {
+background: #90EE90;
+background-image: -webkit-linear-gradient(top, #90EE90, #696969);
+background-image: -moz-linear-gradient(top, #90EE90, #696969);
+background-image: -ms-linear-gradient(top, #90EE90, #696969);
+background-image: -o-linear-gradient(top, #90EE90, #696969);
+background-image: linear-gradient(to bottom, #90EE90, #696969);
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Courier;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+#start {
+    margin-top: 200px;
+}

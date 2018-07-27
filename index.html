@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>National Parks Trivia</title>
+</head>
+
+    <body id="background" background="assets/images/yosemiteValley.jpg">
+    <h1>National Parks Quiz!</h1>
+    <br>
+
+    <button id='start'>Start</button>
+
+    <div id='timer'></div>
+
+    <br>
+
+    <div class='layer' id='quiz'>
+        <form>
+            <fieldset class="unchecked">
+                <legend>What year was the first National Park created?</legend>
+                <br>
+                <input type="radio" id="oneEightSevenTwo" name="questionOne">
+                <label for="oneEightSevenTwo">1872</label><br/>
+
+                <input type="radio" id="oneEightNineZero" name="questionOne">
+                <label for="oneEightNineZero">1890</label><br/>
+
+                <input type="radio" id="1902" name="questionOne">
+                <label for="oneNineZeroTwo"> 1902 </label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>What was the first National Park?</legend>
+                <br>
+                <input type="radio" id="yosemite" name="questionTwo">
+                <label for="yosemite">Yosemite, California</label><br/>
+
+                <input type="radio" id="yellowstone" name="questionTwo">
+                <label for="yellowstone">YellowStone, Wyoming</label><br/>
+
+                <input type="radio" id="sequoia" name="questionTwo">
+                <label for="sequoia">Sequoia, California</label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>What is the name of the geyser visitors can rely on erupting regularly</legend>
+                <br>
+
+                <input type="radio" id="generalSherman" name="questionThree">
+                <label for="generalSherman">General Sherman</label><br/>
+
+                <input type="radio" id="manzanita" name="questionThree">
+                <label for="manzanita">Manzanita</label>
+
+                <input type="radio" id="oldFaithful" name="questionThree">
+                <label for="oldFaithful">Old Faithful</label><br/>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>What language is the name 'Zion' National Park derived from?</legend>
+                <br>
+                <input type="radio" id="arabic" name="questionFour">
+                <label for="Arabic">Arabic</label><br/>
+
+                <input type="radio" id="hebrew" name="questionFour">
+                <label for="hebrew">Hebrew</label><br/>
+
+                <input type="radio" id="latin" name="questionFour">
+                <label for="latin">Latin</label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>U2 named an album after this park</legend>
+                <br>
+                <input type="radio" id="joshuaTree" name="questionFive">
+                <label for="joshuaTree">joshuaTree</label><br/>
+
+                <input type="radio" id="greatBasin" name="questionFive">
+                <label for="greatBasin">Great Basin</label><br/>
+
+                <input type="radio" id="badLands" name="questionFive">
+                <label for="badLands">Bad Lands</label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>Which park is the latest additional to NPS?</legend>
+                <br>
+                <input type="radio" id="pinnacles" name="questionSix">
+                <label for="pinnacles">Pinnacles National Park</label><br/>
+
+                <input type="radio" id="lassen" name="questionSix">
+                <label for="lassen">Lassen Volcanic National Park</label><br/>
+
+                <input type="radio" id="greatSandDunes" name="questionSix">
+                <label for="greatSandDunes">Great Sand Dunes</label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>What state is the Grand Canyon in?</legend>
+                <br>
+                <input type="radio" id="arizona" name="questionSeven">
+                <label for="arizona">Arizona</label><br/>
+
+                <input type="radio" id="newMexico" name="questionSeven">
+                <label for="newMexico">New Mexico</label><br/>
+
+                <input type="radio" id="colorado" name="questionSeven">
+                <label for="colorado">Colorado</label>
+
+            </fieldset>
+            <br>
+            <fieldset class="unchecked">
+                <legend>What is the most visited National Park property?</legend>
+                <br>
+                <input type="radio" id="mountRushmore" name="questionEight">
+                <label for="mountRushmore">Mount Rushmore </label><br/>
+
+                <input type="radio" id="statueOfLiberty" name="questionEight">
+                <label for="statueOfLiberty">Statue of Liberty</label><br/>
+
+                <input type="radio" id="goldenGate" name="questionEight">
+                <label for="goldenGate">Golden Gate Bridge</label>
+                </fieldset>
+            <br>
+                <fieldset class="unchecked">
+                    <legend>Which President signed a proclamation establishing Arches National Monument?</legend>
+                    <br>
+                    <input type="radio" id="grant" name="questionNine">
+                    <label for="grant">President Grant </label><br/>
+
+                    <input type="radio" id="abeLincoln" name="questionNine">
+                    <label for="abeLincoln">President Lincoln</label><br/>
+
+                    <input type="radio" id="hoover" name="questionNine">
+                    <label for="hoover">President Hoover</label>
+
+                </fieldset>
+                <br>
+                <fieldset class="unchecked">
+                    <legend>When is the first day of National Parks week? *Free Entrance* </legend>
+                    <br>
+                    <input type="radio" id="mlk" name="questionTen">
+                    <label for="mlk">January 15th</label><br/>
+
+                    <input type="radio" id="april" name="questionTen">
+                    <label for="april">April 21st</label><br/>
+
+                    <input type="radio" id="september" name="questionTen">
+                    <label for="september">September 22</label>
+
+                </fieldset> <br><br>Hurry Submit!
+        </form>
+    </div>
+    <br>
+    <button id='submit'>Submit Quiz</button>
+
+    <div id ='score'></div>
+    <div id ='losses'></div>
+    <div id ='unanswered'></div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
